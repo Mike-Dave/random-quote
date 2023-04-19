@@ -3,47 +3,57 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background-color: #e7ab9a;
-  text-align: center;
   overflow-y: hidden;
+  text-align: center;
+}
+h1 {
+  font-size: 1.5rem;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 .flexbox-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
+  justify-content: center;
   gap: 30px;
+  margin: 0 auto;
 }
+
 .header {
   background-color: bisque;
   border: 2px solid;
-  padding: 10px 65px;
+  padding: 8px;
   color: #89375f;
 }
+
 .quote-container {
   background-color: bisque;
   padding: 25px;
 }
-.quote-inner-container {
-  width: 20rem;
-  background-color: #f6f1f1;
-  margin: 2.5rem auto;
-  line-height: 1.7;
-}
 
+.quote-inner-container {
+  background-color: #f6f1f1;
+  line-height: 1.5;
+}
 .quote-text {
+  /* I added this height to stop the area from changing in size when the quotes changes */
+  height: 6.25rem;
+  margin-bottom: 1.25em;
   font-size: 1.2rem;
-  padding: 1.25rem;
+  padding: 1em;
   color: #89375f;
 }
 .quote-author {
   text-align: right;
   margin-bottom: 20px;
-  padding: 1.25rem;
+  padding: 1.25em;
   color: #576cbc;
 }
 .quote-btn {
@@ -55,18 +65,21 @@ body {
   text-align: center;
   font-size: 1rem;
   border-radius: 5px;
-  margin-bottom: 30px;
 }
-
-@media (max-width: 580px) {
-  body {
-    margin: 1.7rem;
+@media (min-width: 900px) {
+  h1 {
+    font-size: 2rem;
   }
   .header {
-    padding: 5px 40px;
-    color: #89375f;
+    padding: 10px 20px;
   }
-  .quote-inner-container {
-    width: 17.5rem;
+  .quote-btn {
+    padding: 12px 40px;
+  }
+  .quote-text {
+    font-size: 1.5rem;
+  }
+  .quote-author {
+    font-size: 1.2rem;
   }
 }
