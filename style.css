@@ -5,7 +5,7 @@
 }
 body {
   background-color: #e7ab9a;
-  overflow-y: hidden;
+  overflow: hidden;
   text-align: center;
 }
 h1 {
