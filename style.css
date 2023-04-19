@@ -67,10 +67,6 @@ h1 {
   border-radius: 5px;
 }
 @media (min-width: 900px) {
-  .flexbox-container {
-    min-height: 100vh;
-    margin: 0 auto;
-  }
   h1 {
     font-size: 2rem;
   }
