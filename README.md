@@ -1,4 +1,8 @@
+<center>
+
 ![Random quote](images/random-quote.jpeg)
+
+ </center>
 
 <br>
 
