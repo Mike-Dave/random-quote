@@ -1,31 +1,27 @@
-<center>
+<div align="center">
 
 ![Random quote](images/random-quote.jpeg)
 
- </center>
+ </div>
 
 <br>
 
-# Random Quote Generator
+<div align="center">
 
-<center>
+# Random Quote Generator
 
 [Live](https://mike-dave.github.io/random-quote/)
 
-</center>
+</div>
 
 ## About The Project
 
 This is a simple project on the basics of javascript and Dom manipulation
 
----
-
 Users should be able to:
 
 1. Generate new quotes
 1. Get a responsive layout regardless of their screen size
-
----
 
 ## Built With
 
